@@ -4,6 +4,7 @@
 
 Player(std::string pseudo, int score_1, int score_2, int score_3, int score_4, int score_5)
 
+
 void Player::addScore(int score, int chanson)
 {
     if (score > _score[chanson])
